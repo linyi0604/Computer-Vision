@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/021_Cameo人脸跟踪和图像处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="017_窗口显示摄像头的帧.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
+      <file leaf-file-name="021_Cameo人脸跟踪和图像处理.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/021_Cameo人脸跟踪和图像处理.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="48">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -57,6 +55,7 @@
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" />
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py" />
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" />
+        <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/021_Cameo人脸跟踪和图像处理.py" />
       </list>
     </option>
   </component>
@@ -118,6 +117,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
     </key>
@@ -262,16 +264,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="771" y="70" width="1202" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2841823" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31769437" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2841823" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27758622" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -388,8 +389,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="182">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/021_Cameo人脸跟踪和图像处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
