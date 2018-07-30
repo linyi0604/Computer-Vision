@@ -29,3 +29,17 @@ while success and numFramesRemaining:
     numFramesRemaining -= 1
 
 cameraCapture.release()
+
+
+"""
+如果使用一组摄像头或多个摄像头
+用grab和retrieve方法代替
+
+success0 = cameraCapture.grab()
+success1 = cameraCapture.grab()
+if success0 and success1:
+    frame0 = cameraCapture0.retrieve()
+    frame1 = cameraCapture1.retrieve()
+    
+    
+"""

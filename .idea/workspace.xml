@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="" />
+    <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/opencv3$017_.coverage" NAME="017_窗口显示摄像头的帧 Coverage Results" MODIFIED="1532958018514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+    <SUITE FILE_PATH="coverage/opencv3$016_.coverage" NAME="016_窗口显示图像 Coverage Results" MODIFIED="1532957353538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$015_.coverage" NAME="015_捕获摄像头的帧 Coverage Results" MODIFIED="1532955748762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$01_.coverage" NAME="01_读写图像文件 Coverage Results" MODIFIED="1532827901341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$013_numpy.coverage" NAME="013_使用numpy访问图像数据 Coverage Results" MODIFIED="1532939866984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
@@ -17,20 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="015_捕获摄像头的帧.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py">
+      <file leaf-file-name="017_窗口显示摄像头的帧.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="014_视频文件的读写.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/014_视频文件的读写.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -44,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -53,6 +55,8 @@
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/011_读写图像文件.py" />
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/014_视频文件的读写.py" />
         <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" />
+        <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py" />
+        <option value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" />
       </list>
     </option>
   </component>
@@ -66,10 +70,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
+    <option name="x" value="771" />
     <option name="y" value="70" />
     <option name="width" value="1202" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -127,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.015_捕获摄像头的帧">
+  <component name="RunManager" selected="Python.017_窗口显示摄像头的帧">
     <configuration name="013_使用numpy访问图像数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +192,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="01_读写图像文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="016_窗口显示图像" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,24 +205,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/011_读写图像文件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="017_窗口显示摄像头的帧" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_读写图像文件" />
       <item itemvalue="Python.013_使用numpy访问图像数据" />
       <item itemvalue="Python.014_视频文件的读写" />
       <item itemvalue="Python.015_捕获摄像头的帧" />
+      <item itemvalue="Python.016_窗口显示图像" />
+      <item itemvalue="Python.017_窗口显示摄像头的帧" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.017_窗口显示摄像头的帧" />
+        <item itemvalue="Python.016_窗口显示图像" />
         <item itemvalue="Python.015_捕获摄像头的帧" />
         <item itemvalue="Python.014_视频文件的读写" />
         <item itemvalue="Python.013_使用numpy访问图像数据" />
-        <item itemvalue="Python.01_读写图像文件" />
       </list>
     </recent_temporary>
   </component>
@@ -233,16 +261,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="70" width="1202" height="876" extended-state="0" />
+    <frame x="771" y="70" width="1202" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28514057" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3180593" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2841823" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31769437" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -262,22 +290,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28514057" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2841823" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3180593" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31769437" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -307,18 +335,8 @@
     <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/randomGray.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/randomColor.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/711863494/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/011_读写图像文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/012_图像与原始字节转换.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -341,10 +359,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/randomColor.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/mm1_gray.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/011_读写图像文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
