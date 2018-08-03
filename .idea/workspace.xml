@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/item.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/item2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +26,7 @@
     <SUITE FILE_PATH="coverage/opencv3$013_numpy.coverage" NAME="013_使用numpy访问图像数据 Coverage Results" MODIFIED="1532939866984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$014_.coverage" NAME="014_视频文件的读写 Coverage Results" MODIFIED="1532954142449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$managers.coverage" NAME="managers Coverage Results" MODIFIED="1533008168735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
+    <SUITE FILE_PATH="coverage/opencv3$004_.coverage" NAME="004_矩形、圆形边界框 Coverage Results" MODIFIED="1533219517963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,12 +43,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="003_轮廓检测.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="004_矩形、圆形边界框.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="312">
+              <caret line="13" column="28" selection-end-line="100" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -93,6 +97,7 @@
         <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" />
         <option value="$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py" />
         <option value="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" />
       </list>
     </option>
   </component>
@@ -106,8 +111,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="734" />
-    <option name="y" value="87" />
+    <option name="x" value="599" />
+    <option name="y" value="66" />
     <option name="width" value="1202" />
     <option name="height" value="876" />
   </component>
@@ -130,12 +135,12 @@
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Cameo项目(人脸跟踪和图像处理)" type="462c0819:PsiDirectoryNode" />
+              <item name="03_处理图像" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="03_处理图像" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
@@ -154,11 +159,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.003_轮廓检测">
+  <component name="RunManager" selected="Python.004_矩形、圆形边界框">
     <configuration name="001_高通滤波器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,6 +236,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="004_矩形、圆形边界框" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="cameo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,39 +274,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="managers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/managers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.cameo" />
-      <item itemvalue="Python.managers" />
       <item itemvalue="Python.001_高通滤波器" />
       <item itemvalue="Python.002_canny边缘检测" />
       <item itemvalue="Python.003_轮廓检测" />
+      <item itemvalue="Python.004_矩形、圆形边界框" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.004_矩形、圆形边界框" />
         <item itemvalue="Python.003_轮廓检测" />
         <item itemvalue="Python.002_canny边缘检测" />
         <item itemvalue="Python.cameo" />
         <item itemvalue="Python.001_高通滤波器" />
-        <item itemvalue="Python.managers" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="734" y="87" width="1202" height="876" extended-state="0" />
+    <frame x="599" y="66" width="1202" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -308,49 +313,49 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2841823" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25737265" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3163539" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17068966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20344828" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" weight="0.32931036" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2841823" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28189656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2841823" />
-      <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32931036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3163539" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32931036" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +365,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2328">
+          <caret line="97" column="27" lean-forward="true" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/013_使用numpy访问图像数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -433,16 +458,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/021_Cameo人脸跟踪和图像处理.py" />
-    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/managers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="e#43#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -450,9 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="796">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,9 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,10 +501,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/711863494/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <caret line="5678" column="12" selection-start-line="5678" selection-start-column="12" selection-end-line="5678" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="24">
+          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="28" selection-end-line="100" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
