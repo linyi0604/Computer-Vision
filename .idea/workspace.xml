@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/item.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/item2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_处理图像/005_凸轮廓与douglas-peucher算法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_处理图像/006_直线检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_处理图像/007_圆检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_深度估计与分割/001_普通摄像头进行深度估计.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_深度估计与分割/002_grabcut前景检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_深度估计与分割/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/line1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/opencv3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opencv3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/item.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/circle.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +29,21 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/opencv3$cameo.coverage" NAME="cameo Coverage Results" MODIFIED="1533027214768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
-    <SUITE FILE_PATH="coverage/opencv3$017_.coverage" NAME="017_窗口显示摄像头的帧 Coverage Results" MODIFIED="1532958018514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
-    <SUITE FILE_PATH="coverage/opencv3$003_.coverage" NAME="003_轮廓检测 Coverage Results" MODIFIED="1533045314276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$017_.coverage" NAME="017_窗口显示摄像头的帧 Coverage Results" MODIFIED="1533299083282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+    <SUITE FILE_PATH="coverage/opencv3$003_.coverage" NAME="003_分水岭算法图像分割 Coverage Results" MODIFIED="1533304711221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_深度估计与分割" />
     <SUITE FILE_PATH="coverage/opencv3$016_.coverage" NAME="016_窗口显示图像 Coverage Results" MODIFIED="1532957353538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
-    <SUITE FILE_PATH="coverage/opencv3$002_canny.coverage" NAME="002_canny边缘检测 Coverage Results" MODIFIED="1533027656330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
-    <SUITE FILE_PATH="coverage/opencv3$001_.coverage" NAME="001_高通滤波器 Coverage Results" MODIFIED="1533019108046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
-    <SUITE FILE_PATH="coverage/opencv3$015_.coverage" NAME="015_捕获摄像头的帧 Coverage Results" MODIFIED="1532955748762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+    <SUITE FILE_PATH="coverage/opencv3$001_.coverage" NAME="001_滤波器 Coverage Results" MODIFIED="1533299053156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$015_.coverage" NAME="015_捕获摄像头的帧 Coverage Results" MODIFIED="1533299062963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+    <SUITE FILE_PATH="coverage/opencv3$006_.coverage" NAME="006_直线检测 Coverage Results" MODIFIED="1533299030691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$007_.coverage" NAME="007_圆检测 Coverage Results" MODIFIED="1533299019563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$014_.coverage" NAME="014_视频文件的读写 Coverage Results" MODIFIED="1532954142449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
+    <SUITE FILE_PATH="coverage/opencv3$002_grabcut.coverage" NAME="002_grabcut前景检测 Coverage Results" MODIFIED="1533302917618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_深度估计与分割" />
+    <SUITE FILE_PATH="coverage/opencv3$002_canny.coverage" NAME="002_canny边缘检测 Coverage Results" MODIFIED="1533271188069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
     <SUITE FILE_PATH="coverage/opencv3$01_.coverage" NAME="01_读写图像文件 Coverage Results" MODIFIED="1532827901341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$013_numpy.coverage" NAME="013_使用numpy访问图像数据 Coverage Results" MODIFIED="1532939866984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
-    <SUITE FILE_PATH="coverage/opencv3$014_.coverage" NAME="014_视频文件的读写 Coverage Results" MODIFIED="1532954142449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$managers.coverage" NAME="managers Coverage Results" MODIFIED="1533008168735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
-    <SUITE FILE_PATH="coverage/opencv3$004_.coverage" NAME="004_矩形、圆形边界框 Coverage Results" MODIFIED="1533219517963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$005_douglas_peucher.coverage" NAME="005_凸轮廓与douglas-peucher算法 Coverage Results" MODIFIED="1533262671714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
+    <SUITE FILE_PATH="coverage/opencv3$004_.coverage" NAME="004_矩形、圆形边界框 Coverage Results" MODIFIED="1533271221599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,13 +61,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="004_矩形、圆形边界框.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
+      <file leaf-file-name="003_分水岭算法图像分割.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="28" selection-end-line="100" />
+            <state relative-caret-position="624">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
-                <element signature="e#15#25#0" expanded="true" />
+                <element signature="e#15#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +85,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>    </find>
+      <find>canny</find>
+      <find>DP</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -94,10 +113,19 @@
         <option value="$PROJECT_DIR$/03_处理图像/001_滤波器.py" />
         <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/utils.py" />
         <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/filters.py" />
-        <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" />
         <option value="$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py" />
-        <option value="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/005_凸轮廓与douglas-peucher算法.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/007_直线检测.py" />
         <option value="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/006_直线检测.py" />
+        <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" />
+        <option value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/depth.py" />
+        <option value="$PROJECT_DIR$/data/001_普通摄像头进行深度估计.py" />
+        <option value="$PROJECT_DIR$/04_深度估计与分割/001_普通摄像头进行深度估计.py" />
+        <option value="$PROJECT_DIR$/03_处理图像/007_圆检测.py" />
+        <option value="$PROJECT_DIR$/04_深度估计与分割/002_grabcut前景检测.py" />
+        <option value="$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py" />
       </list>
     </option>
   </component>
@@ -111,9 +139,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="66" />
-    <option name="width" value="1202" />
+    <option name="x" value="276" />
+    <option name="y" value="97" />
+    <option name="width" value="1244" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -135,7 +163,7 @@
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="03_处理图像" type="462c0819:PsiDirectoryNode" />
+              <item name="04_深度估计与分割" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
@@ -159,11 +187,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04_深度估计与分割" />
+      <recent name="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,8 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.004_矩形、圆形边界框">
-    <configuration name="001_高通滤波器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.003_分水岭算法图像分割">
+    <configuration name="001_滤波器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +227,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="002_canny边缘检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="002_grabcut前景检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,18 +235,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_深度估计与分割" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_深度估计与分割/002_grabcut前景检测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="003_轮廓检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="003_分水岭算法图像分割" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,18 +254,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_深度估计与分割" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/003_轮廓检测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="004_矩形、圆形边界框" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="015_捕获摄像头的帧" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,18 +273,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="cameo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="017_窗口显示摄像头的帧" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,31 +292,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.cameo" />
-      <item itemvalue="Python.001_高通滤波器" />
-      <item itemvalue="Python.002_canny边缘检测" />
-      <item itemvalue="Python.003_轮廓检测" />
-      <item itemvalue="Python.004_矩形、圆形边界框" />
+      <item itemvalue="Python.002_grabcut前景检测" />
+      <item itemvalue="Python.001_滤波器" />
+      <item itemvalue="Python.015_捕获摄像头的帧" />
+      <item itemvalue="Python.017_窗口显示摄像头的帧" />
+      <item itemvalue="Python.003_分水岭算法图像分割" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.004_矩形、圆形边界框" />
-        <item itemvalue="Python.003_轮廓检测" />
-        <item itemvalue="Python.002_canny边缘检测" />
-        <item itemvalue="Python.cameo" />
-        <item itemvalue="Python.001_高通滤波器" />
+        <item itemvalue="Python.003_分水岭算法图像分割" />
+        <item itemvalue="Python.002_grabcut前景检测" />
+        <item itemvalue="Python.017_窗口显示摄像头的帧" />
+        <item itemvalue="Python.015_捕获摄像头的帧" />
+        <item itemvalue="Python.001_滤波器" />
       </list>
     </recent_temporary>
   </component>
@@ -304,23 +333,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="66" width="1202" height="876" extended-state="0" />
+    <frame x="276" y="97" width="1244" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25737265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21447721" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3163539" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20344828" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29118136" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" weight="0.32931036" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6322795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
@@ -333,28 +371,28 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2841823" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21447721" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29118136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32931036" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3163539" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.6322795" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32931036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -365,13 +403,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2328">
           <caret line="97" column="27" lean-forward="true" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,9 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,40 +478,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/021_Cameo人脸跟踪和图像处理.py" />
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/managers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/001_滤波器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -480,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -494,36 +501,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/711863494/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-624">
+          <caret line="2349" column="4" selection-start-line="2349" selection-start-column="4" selection-end-line="2349" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/711863494/cv2/cv2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/data/circle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-689">
-          <caret line="5678" column="12" selection-start-line="5678" selection-start-column="12" selection-end-line="5678" selection-end-column="12" />
+        <state relative-caret-position="264">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="28" selection-end-line="100" />
+        <state relative-caret-position="-969">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/005_凸轮廓与douglas-peucher算法.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/016_窗口显示图像.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/depth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/workspace/python/.virtualenvs/cv_py2/local/lib/python2.7/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1162" selection-start-line="1162" selection-end-line="1162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_深度估计与分割/001_普通摄像头进行深度估计.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/006_直线检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/007_圆检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/001_滤波器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/017_窗口显示摄像头的帧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面/015_捕获摄像头的帧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/workspace/python/.virtualenvs/cv_py3/lib/python3.6/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/workspace/python/.virtualenvs/cv_py3/lib/python3.6/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_深度估计与分割/002_grabcut前景检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_深度估计与分割/003_分水岭算法图像分割.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

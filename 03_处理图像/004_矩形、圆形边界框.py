@@ -56,8 +56,6 @@ cv.findContours()
         hierarchy:一个ndarray, 元素数量和轮廓数量一样， 
             每个轮廓contours[i]对应4个hierarchy元素hierarchy[i][0] ~hierarchy[i][3]，
             分别表示后一个轮廓、前一个轮廓、父轮廓、内嵌轮廓的索引编号，如果没有对应项，则该值为负数
-        
-
 """
 
 for c in contours:

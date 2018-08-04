@@ -3,6 +3,7 @@
 import cv2
 from managers import WindowManger, CaptureManager
 import filters
+import depth
 """
 Cameo项目 面向对象方式 实现一个 人脸跟踪和图像处理
 """
