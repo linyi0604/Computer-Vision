@@ -9,14 +9,20 @@ import numpy as np
 #  图像是灰度格式，后缀名.pgm
 #  图像是正方形 图像大小要一样 在这里使用200*200
 def generate():
+    # 加载检测图像中人脸位置的对象， xml文件需要去opencv文件夹里面找， 放到项目里面来引入
     face_cascade = cv2.CascadeClassifier("../data/haarcascade_frontalface_default.xml")
-    eye_cascade = cv2.CascadeClassifier("../data/haarcascade_eye.xml")
+    # 调用本机摄像头
     camera = cv2.VideoCapture(0)
     count = 0
+    # 读取摄像头
     while True:
+        # 读入 帧
         ret, frame = camera.read()
+        # 变为灰度图像
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        # 检测人脸位置
         faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+        # 将图片中人脸位置单独拿出来改变成200*200大小的图片 存入本地 作为数据集
         for (x, y, w, h) in faces:
             img = cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
             f = cv2.resize(gray[y:y+h, x:x+w], (200, 200))
@@ -24,6 +30,7 @@ def generate():
             count += 1
 
         cv2.imshow("camera", frame)
+        # 如果按键q就退出 否则等50毫秒
         if cv2.waitKey(50) & 0xff == ord("q"):
             break
 
@@ -31,6 +38,7 @@ def generate():
     cv2.destroyAllWindows()
 
 
+# 读取生成好的数据 在我项目目录下整理好的
 def readImages():
     x, y = [], []
     path = "./data/faces/"

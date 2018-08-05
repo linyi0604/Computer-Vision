@@ -50,8 +50,8 @@
       <file leaf-file-name="003_人脸识别.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05_人脸检测和识别/003_人脸识别.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="-1489">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
                 <element signature="e#16#26#0" expanded="true" />
               </folding>
@@ -133,9 +133,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="799" />
-    <option name="y" value="126" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="596" />
+    <option name="y" value="111" />
     <option name="width" value="1244" />
     <option name="height" value="876" />
   </component>
@@ -340,7 +340,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="799" y="126" width="1244" height="876" extended-state="0" />
+    <frame x="0" y="25" width="1920" height="998" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
@@ -348,9 +348,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49916804" visible="true" weight="0.27479893" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2935657" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21797004" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916804" weight="0.27479893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25230414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13951011" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -676,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_人脸检测和识别/003_人脸识别.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="-1489">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="e#16#26#0" expanded="true" />
           </folding>
