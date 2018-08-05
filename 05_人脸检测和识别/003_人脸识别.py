@@ -53,9 +53,22 @@ def readImages():
 def face_rec():
     # 获取数据
     x, y = readImages()
-    # 训练模型
+
+    # 人脸识别的模型
     model = cv2.face.EigenFaceRecognizer_create()
+    # fisherfaces算法的模型
+    # model = cv2.face.FisherFaceRecognizer_create()
+    # LBPH算法的模型
+    # model = cv2.face.LBPHFaceRecognizer_create()
+    """
+    Eigenfaces和Fisherfaces 预测时候产生0到20000的评分
+        低于4000 5000 的评分都是相当可靠的
+    LBPH 产生评分不同，低于50是可靠的 高于80是不可靠的
+    """
+
+    # 训练模型
     model.train(np.asarray(x), np.asarray(y))
+
     # 开摄像头
     camera = cv2.VideoCapture(0)
     # 加载检测人脸对象
@@ -63,7 +76,7 @@ def face_rec():
     while True:
         # 读取当前帧
         read, img = camera.read()
-        # 当前帧下检测人脸z
+        # 当前帧下检测人脸
         faces = face_cascade.detectMultiScale(img, 1.3, 5)
         for (x, y, w, h) in faces:
             # 画出人脸
@@ -80,7 +93,9 @@ def face_rec():
                 # 在图像上写预测结果
                 # 1.2是字体大小 2是粗细
                 img = cv2.putText(img, str(params[0]), (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 255, 0), 2)
+                # prams是一个二元素列表, 第一个元素是预测结果，第二个元素是得分情况
                 print(params)
+
             except Exception as e:
                 print(e)
         cv2.imshow("detect face", img)
