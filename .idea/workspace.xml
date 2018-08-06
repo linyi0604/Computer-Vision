@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd48bc74-6c07-4f1f-934b-de15288c671b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/001_检测角点特征.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/002_DoG和SIFT特征提取与描述.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/003_hessian算法surf提取和检测.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和匹配.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/album1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chess1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/walez1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/005_k近邻匹配.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_图像检测和搜索/006_FLANN匹配.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和BF暴力匹配.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,10 +23,12 @@
     <SUITE FILE_PATH="coverage/opencv3$015_.coverage" NAME="015_捕获摄像头的帧 Coverage Results" MODIFIED="1533348798181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$006_.coverage" NAME="006_直线检测 Coverage Results" MODIFIED="1533566584263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
     <SUITE FILE_PATH="coverage/opencv3$002_.coverage" NAME="002_视频中检测人脸 Coverage Results" MODIFIED="1533566284919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_人脸检测和识别" />
+    <SUITE FILE_PATH="coverage/opencv3$005_k.coverage" NAME="005_k近邻匹配 Coverage Results" MODIFIED="1533568074282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_图像检测和搜索" />
     <SUITE FILE_PATH="coverage/opencv3$003_hessiansurf.coverage" NAME="003_hessian算法surf提取和检测 Coverage Results" MODIFIED="1533566004284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_图像检测和搜索" />
     <SUITE FILE_PATH="coverage/opencv3$007_.coverage" NAME="007_圆检测 Coverage Results" MODIFIED="1533566546312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
     <SUITE FILE_PATH="coverage/opencv3$014_.coverage" NAME="014_视频文件的读写 Coverage Results" MODIFIED="1532954142449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
     <SUITE FILE_PATH="coverage/opencv3$002_grabcut.coverage" NAME="002_grabcut前景检测 Coverage Results" MODIFIED="1533566431882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_深度估计与分割" />
+    <SUITE FILE_PATH="coverage/opencv3$006_FLANN.coverage" NAME="006_FLANN匹配 Coverage Results" MODIFIED="1533568855092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_图像检测和搜索" />
     <SUITE FILE_PATH="coverage/opencv3$008_.coverage" NAME="008_在图像上写字 Coverage Results" MODIFIED="1533517858601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
     <SUITE FILE_PATH="coverage/opencv3$002_canny.coverage" NAME="002_canny边缘检测 Coverage Results" MODIFIED="1533271188069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_处理图像" />
     <SUITE FILE_PATH="coverage/opencv3$01_.coverage" NAME="01_读写图像文件 Coverage Results" MODIFIED="1532827901341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_处理文件、摄像头和图形用户界面" />
@@ -57,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="007_圆检测.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_处理图像/007_圆检测.py">
+      <file leaf-file-name="006_FLANN匹配.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/006_FLANN匹配.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="72">
+              <caret line="24" column="11" selection-start-line="24" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -134,6 +131,8 @@
         <option value="$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和匹配.py" />
         <option value="$PROJECT_DIR$/06_图像检测和搜索/002_DoG和SIFT特征提取与描述.py" />
         <option value="$PROJECT_DIR$/06_图像检测和搜索/003_hessian算法surf提取和检测.py" />
+        <option value="$PROJECT_DIR$/06_图像检测和搜索/005_k近邻匹配.py" />
+        <option value="$PROJECT_DIR$/06_图像检测和搜索/006_FLANN匹配.py" />
       </list>
     </option>
   </component>
@@ -147,8 +146,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="136" />
+    <option name="x" value="777" />
+    <option name="y" value="105" />
     <option name="width" value="1246" />
     <option name="height" value="876" />
   </component>
@@ -166,21 +165,6 @@
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="03_处理图像" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="04_深度估计与分割" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv3" type="462c0819:PsiDirectoryNode" />
-              <item name="05_人脸检测和识别" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv3" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.001_滤波器">
+  <component name="RunManager" selected="Python.006_FLANN匹配">
     <configuration name="001_滤波器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,7 +274,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="006_直线检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="005_k近邻匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,18 +282,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_图像检测和搜索" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/006_直线检测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_图像检测和搜索/005_k近邻匹配.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="007_圆检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="006_FLANN匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,31 +301,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_处理图像" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_图像检测和搜索" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_处理图像/007_圆检测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_图像检测和搜索/006_FLANN匹配.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.007_圆检测" />
-      <item itemvalue="Python.006_直线检测" />
       <item itemvalue="Python.004_矩形、圆形边界框" />
       <item itemvalue="Python.003_轮廓检测" />
       <item itemvalue="Python.001_滤波器" />
+      <item itemvalue="Python.005_k近邻匹配" />
+      <item itemvalue="Python.006_FLANN匹配" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.006_FLANN匹配" />
+        <item itemvalue="Python.005_k近邻匹配" />
         <item itemvalue="Python.001_滤波器" />
         <item itemvalue="Python.003_轮廓检测" />
         <item itemvalue="Python.004_矩形、圆形边界框" />
-        <item itemvalue="Python.006_直线检测" />
-        <item itemvalue="Python.007_圆检测" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +352,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="136" width="1246" height="876" extended-state="0" />
+    <frame x="777" y="105" width="1246" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
@@ -377,8 +361,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49916804" visible="true" weight="0.3243968" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2520138" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29568106" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25201073" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29568106" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -401,18 +385,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.6322795" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6320598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916804" weight="0.31903484" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916804" visible="true" weight="0.3243968" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="right" id="Database" order="6" weight="0.32931036" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2520138" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25201073" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083196" side_tool="true" weight="0.36461127" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -428,39 +412,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/711863494/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="2349" column="4" selection-start-line="2349" selection-start-column="4" selection-end-line="2349" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/circle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_处理图像/002_canny边缘检测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="3" lean-forward="true" selection-start-line="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/005_凸轮廓与douglas-peucher算法.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/02_Cameo项目(人脸跟踪和图像处理)/cameo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,13 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="1162" selection-start-line="1162" selection-end-line="1162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/001_滤波器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -623,13 +573,6 @@
     <entry file="file://$PROJECT_DIR$/data/chess1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_处理图像/006_直线检测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/003_hessian算法surf提取和检测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -641,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和匹配.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -699,6 +635,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/006_直线检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/005_凸轮廓与douglas-peucher算法.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/004_矩形、圆形边界框.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/003_轮廓检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_处理图像/001_滤波器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/004_基于ORB的特征检测和BF暴力匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/005_k近邻匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_图像检测和搜索/006_FLANN匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="24" column="11" selection-start-line="24" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
