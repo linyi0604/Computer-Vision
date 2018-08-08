@@ -25,6 +25,17 @@ FLANN_INDEX_KDTREE = 0
 indexParams = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
 searchParams = dict(checks=50)
 flann = cv2.FlannBasedMatcher(indexParams, searchParams)
+
+"""
+flann = cv2.FlannBasedMatcher(indexParams, searchParams)
+    传入两个参数以字典的形式
+    FLANN内部会决定如何处理索引和搜索对象
+    可以选择 LinearIndex KTreeIndex KMeansIndex CompositeIndex 和 AutotunelIndex
+    KTreeIndex配置索引简单 只需要指定待处理核密度树的数量 最理想的数量是1到16 KTreeIndex非常灵活
+    searchParams字段包含一个checks 用来指定索引树要被遍历的次数 次数越高花费时间越长 结果越准确
+    
+"""
+
 # 进行匹配
 matches = flann.knnMatch(des1, des2, k=2)
 # 准备空的掩膜 画好的匹配项
